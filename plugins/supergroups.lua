@@ -61,7 +61,7 @@ local function check_member_super(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = '<i>✨سوپر گروه اضافه شد!✨</i>'
+	  local text = '<i>🔰سوپر گروه اضافه شد!🔰</i>'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -89,7 +89,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-	  local text = '<i>✨سوپر گروه حذف شد!✨</i>'
+	  local text = '<i>🔰🚫سوپر گروه حذف شد!🔰</i>'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -139,7 +139,7 @@ local function callback_clean_bots (extra, success, result)
 end
 --Get and output info about supergroup
 local function callback_info(cb_extra, success, result)
-local title ="<i>🔨اطاعات سوپر گروه »» </i><b>["..result.title.."]</b>\n\n"
+local title ="<i>🔨طلاعات سوپر گروه »» </i><b>["..result.title.."]</b>\n\n"
 local admin_num = "<i>🔱تعداد مدیران »» </i><b>"..result.admins_count.."</b>\n"
 local user_num = "<i>🔅تعداد کاربران »» </i><b>"..result.participants_count.."</b>\n"
 local kicked_num = "<i>🚫تعداد اخراجیان »» </i><b>"..result.kicked_count.."</b>\n"
