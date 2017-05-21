@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return [[<i> 
+  return [[<code>
 💠راهنمای فارسی💠
     
 🔆شخصی سازی سوپرگروه:🔆
@@ -74,8 +74,8 @@ function run(msg, matches)
 
 〰〰〰〰〰〰〰
     
-✨سازنده  : @PunisherTM✨
-</i>]]
+✨سازنده  : @Wariors_Tm✨
+</code>]]
 end
 
 return {
