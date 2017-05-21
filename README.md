@@ -15,9 +15,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 cd $HOME
 
-git clone https://github.com/punisherteam/PunisherTG
-
-cd PunisherTG
+git clone https://github.com/hsamdew/jagwarTG
+cd jagwarTG
 
 chmod +x launch.sh
 
@@ -32,7 +31,7 @@ chmod +x launch.sh
 
 @userinfobot
 
-PunisherTG/data/confing.lua                        
+/data/confing.lua                        
 ```
 
 
@@ -41,7 +40,7 @@ PunisherTG/data/confing.lua
 ## run bot 
 ```
 cd $HOME
-cd PunisherTG
+cd jagwarTG
 ./launch.sh
 ```
 
@@ -50,7 +49,7 @@ cd PunisherTG
 
 
 
-By  PunisherTeam
- * [PunisherTM](https://telegram.me/PunisherTM)
- * [mamadkiller](https://telegram.me/mamadkiller)
- * [Thepoorya](https://telegram.me/Thepoorya)
+By  CyberWariorsTeam
+ * [Wariors_Team](https://telegram.m/Warior_Tem
+ * [hsmdewx3](https://telegram.me/hsmdewx3)
+ * [Channel](https://telegram.me/Cyber_Sat
